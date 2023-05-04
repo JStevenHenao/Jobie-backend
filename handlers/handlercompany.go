@@ -8,6 +8,8 @@ import (
 )
 
 func CreateCompany(rw http.ResponseWriter, r *http.Request) {
+
+	///Agregar servicios
 	company := models.Company{}
 	decoder := json.NewDecoder(r.Body)
 
