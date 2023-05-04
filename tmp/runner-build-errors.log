@@ -1,0 +1,4 @@
+# tidy/handlers
+handlers\handlercompany.go:47:146: newline in string
+handlers\handlercompany.go:48:5: syntax error: unexpected jobie at end of statement
+handlers\handlercompany.go:48:100: newline in string
