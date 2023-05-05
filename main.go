@@ -20,6 +20,8 @@ func main() {
 	mux.HandleFunc("/api/jobie/company", handlers.CreateCompany).Methods("POST")
 	mux.HandleFunc("/api/jobie/services/company", handlers.CreateServicesCompany).Methods("POST")
 
+	mux.HandleFunc("/api/jobie/services/company/{id:[0-9]+}", handlers.GetServicesForCompany).Methods("GET")
+
 	/*mux.HandleFunc("/api/user/{id:[0-9]+}", handlers.UpdateUser).Methods("PUT")
 
 	mux.HandleFunc("/api/user/{id:[0-9]+}", handlers.DeleteUser).Methods("DELETE")*/

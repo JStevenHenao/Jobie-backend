@@ -8,4 +8,5 @@ type Company struct {
 	Image        string `json:"image"`
 	PhoneNumber  int    `json:"phoneNumber"`
 	State        string `json:"state"`
+	Reason       string `json:"reason"`
 }
